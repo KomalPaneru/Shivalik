@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    font-family: Georgia, serif;
+}
+
+.navbar {
+    background-color: #003f3f;
+    height: 4rem;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow:0;
+    flex-shrink: 0;
+    flex-flow: auto;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+
+a {
+    text-decoration: none;
+    color: #d4af37;
+    font-weight: bold;
+}
+
+.logo {
+    background-image: url("shivalikk-removebg-preview.png");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+}
