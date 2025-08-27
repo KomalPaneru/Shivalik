@@ -5,10 +5,11 @@
 
 .navbar {
     background-color: #003f3f;
-    height: 4rem;
+    height: 5rem;
+    padding: 1rem;
     font-size: 1.1rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     flex-grow:0;
     flex-shrink: 0;
@@ -23,6 +24,29 @@
     border: 2px solid white;
 }
 
+.navlogo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    background-image: url("shivalikk-removebg-preview.png");
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+.name  {
+    color: white;
+    font-family: Arial, sans-serif;;
+
+}
+
+.nameone {
+    color: white;
+    font-size: 0.8rem;
+}
 
 a {
     text-decoration: none;
@@ -30,9 +54,3 @@ a {
     font-weight: bold;
 }
 
-.logo {
-    background-image: url("shivalikk-removebg-preview.png");
-    background-size: cover;
-    height: 50px;
-    width: 50px;
-}
